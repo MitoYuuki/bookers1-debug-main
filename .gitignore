@@ -1,0 +1,37 @@
+# Ignore bundler config.
+/.bundle
+
+# Ignore all logfiles and tempfiles.
+log/*
+tmp/*
+!/log/.keep
+!/tmp/.keep
+
+# Ignore uploaded files in development
+/storage/*
+!/storage/.keep
+
+# Ignore master key for decrypting credentials and more.
+config/master.key
+
+# Ignore database files
+/db/*.sqlite3
+/db/*.sqlite3-journal
+
+# Ignore node modules
+/node_modules
+/yarn-error.log
+
+# Ignore webpack and compiled assets
+/public/packs
+/public/assets
+
+# Ignore byebug history file.
+/.byebug_history
+
+# Ignore OS and misc
+*.swp
+*.swo
+*.DS_Store
+*.bak
+*.zip
